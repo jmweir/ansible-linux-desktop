@@ -1,0 +1,8 @@
+---
+- name: Install RDP Server
+  yum: name={{ item }} state=present
+  with_items:
+    - xrdp
+
+- name: Ensure xrdp started and enabled
+  service: name=xrdp state=started enabled=yes

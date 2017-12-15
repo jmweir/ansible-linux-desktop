@@ -1,0 +1,7 @@
+---
+- name: Desktop User
+  user:
+    name: desktop
+    password: $6$bXvL.nj6H60G8TTZ$uz1u6c2RFXQiE1wVzELld.lYx2mx/518EqEczl5G5espSTYYYZZYuDA82NCdCiwsMIve.h/M24uRVpBhaqbP91
+    groups:
+      - wheel

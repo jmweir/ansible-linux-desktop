@@ -1,0 +1,10 @@
+---
+- hosts: desktop
+  roles:
+    - role: epel
+    - role: desktop
+    - role: oracle_java
+    - role: vnc_server
+    - role: rdp_server
+    - role: google_chrome
+    - role: intellij

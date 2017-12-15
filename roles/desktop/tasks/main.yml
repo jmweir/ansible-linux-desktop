@@ -1,0 +1,6 @@
+---
+- name: Install Packages
+  import_tasks: install.yml
+
+- name: Configure System
+  import_tasks: configure.yml
